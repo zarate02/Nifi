@@ -23,8 +23,8 @@
     </parent>
 
     <groupId>winitech</groupId>
-    <artifactId>callprcd</artifactId>
-    <version>1.0.0</version>
+    <artifactId>teamcs</artifactId>
+    <version>1.0</version>
     <packaging>pom</packaging>
 
     <modules>

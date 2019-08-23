@@ -18,12 +18,12 @@
 
     <parent>
         <groupId>winitech</groupId>
-        <artifactId>callprcd</artifactId>
-        <version>1.0.0</version>
+        <artifactId>teamcs</artifactId>
+        <version>1.0</version>
     </parent>
 
     <artifactId>nifi-com-nar</artifactId>
-    <version>1.0.0</version>
+    <version>1.0</version>
     <packaging>nar</packaging>
     <properties>
         <maven.javadoc.skip>true</maven.javadoc.skip>
@@ -34,11 +34,11 @@
         <dependency>
             <groupId>winitech</groupId>
             <artifactId>nifi-com-processors</artifactId>
-            <version>1.0.0</version>
+            <version>1.0</version>
         </dependency>
-        
+                
         <!-- add -->
-        <dependency>
+		<dependency>
 		    <groupId>org.apache.nifi</groupId>
 		    <artifactId>nifi-standard-nar</artifactId>
 		    <version>1.9.2</version>

@@ -67,6 +67,8 @@ From: 'an unknown organization'
     License: New BSD License  (http://dist.codehaus.org/janino/new_bsd_license.txt)
   - Janino (http://docs.codehaus.org/display/JANINO/Home/janino) org.codehaus.janino:janino:jar:2.7.6
     License: New BSD License  (http://dist.codehaus.org/janino/new_bsd_license.txt)
+  - Hamcrest Core (https://github.com/hamcrest/JavaHamcrest/hamcrest-core) org.hamcrest:hamcrest-core:jar:1.3
+    License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
   - XZ for Java (https://tukaani.org/xz/java.html) org.tukaani:xz:jar:1.8
     License: Public Domain 
 
@@ -163,6 +165,10 @@ From: 'Joda.org' (http://www.joda.org)
 From: 'Julian Hyde' (http://www.hydromatic.net)
   - Aggregate Designer Algorithm (http://github.com/julianhyde/aggdesigner/aggdesigner-algorithm) net.hydromatic:aggdesigner-algorithm:jar:6.0
     License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'JUnit' (http://www.junit.org)
+  - JUnit (http://junit.org) junit:junit:jar:4.12
+    License: Eclipse Public License 1.0  (http://www.eclipse.org/legal/epl-v10.html)
 
 From: 'ObjectWeb' (http://www.objectweb.org/)
   - ASM Core (http://asm.objectweb.org/asm/) org.ow2.asm:asm:jar:5.0.4

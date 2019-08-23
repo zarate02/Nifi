@@ -107,7 +107,7 @@ From: 'Apache NiFi Project' (http://nifi.apache.org/)
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - nifi-utils (http://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.9.2
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
-  - nifi-com-processors (http://nifi.apache.org/nifi-nar-bundles/callprcd/nifi-com-processors) winitech:nifi-com-processors:jar:1.0.0
+  - nifi-com-processors (http://nifi.apache.org/nifi-nar-bundles/teamcs/nifi-com-processors) winitech:nifi-com-processors:jar:1.0
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
 
 From: 'Apache Software Foundation' (http://www.apache.org)
