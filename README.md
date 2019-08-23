@@ -1,6 +1,8 @@
 # Nifi
 
-## 프로세서 커스텀 하는 방법 (https://bhjo0930.tistory.com/entry/Nifi-Custom-Processor-%EB%A7%8C%EB%93%A4%EA%B8%B0 참고)
+## 프로세서 커스텀 하는 방법 
+
+(https://bhjo0930.tistory.com/entry/Nifi-Custom-Processor-%EB%A7%8C%EB%93%A4%EA%B8%B0 참고)
 
 1) mvn archetype:generate
 2) Choose a number or apply filter : nifi (입력)
@@ -14,15 +16,19 @@
 10) 메인파일 변경시 /src/main/resources/META-INF/service 에 메인파일을 바꿔줘야함 (이후는 응용)
 11) 빌드 패키징은 processors > 메인프로젝트 > nar 순으로 최종결과물은 nar의 target에 떨어짐
 
+## NIFI 자체 로그관리
+
+/conf/logback.xml
+에서 아파치 로그파일관련된 설정을 할수 있습니다.
 
 ## 1. 프로시저 호출하는 SQL서비스 (CallProcedureSQL)
 
 ### 사용법) 
 
 1. CallProcedureSQL 컴포넌트를 호출한다.
-2. (args.... , cursor, varchar outMsg1, varchar outMsg2) 를 기준으로 만들어졌다.
-3. SQL에 프로시저명(${변수명1}, ${변수명2}, ....., ${변수명n), ?,?,?) 형식으로 작성하면 된다.
-4. 정상작동하게되면 attribute 값으로 outMsg1, outMsg2 가 출력된다.
+2. (args.... , varchar outMsg1) 을 기준으로 만들어졌다.
+3. SQL에 프로시저명(${변수명1}, ${변수명2}, ....., ${변수명n), ?) 형식으로 작성하면 된다.
+4. 정상작동하게되면 attribute 값으로 outMsg1 가 출력된다.
 
 
 
